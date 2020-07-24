@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Shop</title>
+  </head>
+  <body>
+     <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 d-none d-lg-block">      
+             <h5>Welcome to our store</h5>  
+           </div>
+            <div class="col-3 d-none d-lg-block">      
+             <h5>Telephone:01235668</h5>  
+           </div>
+           <div class="col-6 col-lg-2 ">
+            <select class="custom-select">
+               <option selected>ENG</option>
+                 <option value="1">РУС</option>
+                  <option value="2">ՀԱՅ</option>
+                </select>
+              </div>
+              <div class="col-6 col-lg-2">
+            <select class="custom-select">
+               <option selected>$</option>
+                 <option value="1">֏</option>
+                  <option value="2">₽</option>
+                </select>
+              </div>
+              <div class="col-2 d-none d-lg-block">
+                 <button type="button" class="btn btn-primary">
+                 Wishlist <span class="badge badge-light">4</span>
+                 </button>
+              </div>
+          </div>
+                <nav class="navbar navbar-dark bg-dark">
+                  <div class="col-5">
+               <img src="https://www.kindpng.com/picc/m/80-808145_transparent-green-check-png-blue-shopping-cart-logo.png" width="100px">
+             </div>
+             <div class="col-5 d-none d-lg-block">
+                <form class="form-inline">
+                   <input class="form-control mr-sm-2" type="search" placeholder="  Search" aria-label="Search">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+                 </form>
+               </div>
+                   <div class="dropdown col-4 col-lg-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 My Account
+                           </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#LoginModal">Login</a>
+
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>
+
+                   <a class="dropdown-item" href="#">My orders</a>
+                   <a class="dropdown-item" href="#">Accout Setings</a>
+                 </div>
+                </div>
+                </nav>
+               <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+          
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Phone
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Iphone</a>
+                          <a class="dropdown-item" href="#">Samsung</a>
+                          <a class="dropdown-item" href="#">Xiaomi</a>
+                      </li>
+                    </ul>
+          
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Playstation
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Ps5</a>
+                          <a class="dropdown-item" href="#">Ps4</a>
+                          <a class="dropdown-item" href="#">Ps3</a>
+                      </li>
+                    </ul>
+          
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                         Book
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Fashion</a>
+                          <a class="dropdown-item" href="#">Business</a>
+                          <a class="dropdown-item" href="#">All</a>
+                      </li>
+                    </ul>
+          
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Clohtes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">T-shirt</a>
+                          <a class="dropdown-item" href="#">Shoes</a>
+                          <a class="dropdown-item" href="#">Woman's</a>
+                      </li>
+                    </ul>
+          
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Toy
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Small</a>
+                          <a class="dropdown-item" href="#">Big</a>
+                          <a class="dropdown-item" href="#">All</a>
+                      </li>
+                    </ul>
+          
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Car
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Mersedes-Benz</a>
+                          <a class="dropdown-item" href="#">BMV</a>
+                          <a class="dropdown-item" href="#">Audi</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+        </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="row  d-lg-block">
+          <hr>
+       <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-lg-block" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="shop.html">  
+        <img src="https://www.digitalvidya.com/wp-content/uploads/2017/07/online-shopping-campaign-banner-1280x720.jpg" class="d-block img-fluid" alt="" >
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="shop.html">
+      <img src="https://begenkishop.com/wp-content/uploads/2019/12/Online-Shopping.jpg" class="d-block img-fluid" alt="...">
+    </a>
+    </div>
+    <div class="carousel-item">
+      <a href="shop.html">
+      <img src="https://simpleintelligentsystems.com/wp-content/uploads/2017/10/Male-and-Female-Online-Shopping-behaviour_FeatureImage_31.10.2017-1280x720.jpg" class="img-fluid" alt="...">
+    </a>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="row alert alert-secondary text-uppercase text-center col-12" role="alert">
+  Today deals
+</div>
+<div class="container">
+  <div class="row">
+<div class="card col-12 col-lg-3">
+  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567022175704" class="card-img-top img-fluid" alt=>
+  <div class="card-body">
+    <h5 class="card-title">Iphone 11</h5>
+    <p class="card-text">The iPhone 11 succeeds the iPhone XR, and it features a 6.1-inch LCD display that Apple calls a "Liquid Retina HD Display.</p>
+    <a href="shop.html" class="btn btn-secondary">Buy iPhone 11</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-3">
+  <img src=https://media.4rgos.it/s/Argos/6185936_R_SET?$Main768$&w=620&h=620 class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PS4</h5>
+    <p class="card-text">The PlayStation 4 (officially abbreviated as PS4) is an eighth-generation home video game console developed by Sony Computer Entertainment.It competes with Microsoft's Xbox One</p>
+    <a href="#" class="btn btn-secondary">Buy PS4</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-3 img-fluid">
+  <img src=https://literaryyard.files.wordpress.com/2013/01/e-books.jpg class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Books</h5>
+    <p class="card-text">A book is a set of printed sheets of paper held together between two covers. ... The change from scrolls to books began in the Roman Empire, and took many centuries to become complete. Buy now</p>
+    <a href="#" class="btn btn-secondary">Buy Books</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-3 img-fluid">
+  <img src=https://images-na.ssl-images-amazon.com/images/I/71efuy%2B3ZNL._AC_SL1500_.jpg class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Samsung s20</h5>
+    <p class="card-text">Samsung Galaxy S20 is a line of Android-based smartphones designed, developed, marketed, and manufactured by Samsung Electronics</p>
+    <a href="#" class="btn btn-secondary">Buy Samsung s20</a>
+  </div>
+</div>
+</div>
+</div>
+<hr>
+<div class="alert alert-secondary text-uppercase text-center col-12" role="alert">
+  Categories
+</div>
+<div class="row">
+<div class="card col-6  col-lg-4">
+  <img src="https://images.csmonitor.com/csm/2015/03/phone-size-matters.jpg?alias=standard_900x600" class="card-img-top img-fluid d-none d-lg-block" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Phones
+  </button>
+  <div class="dropdown-menu col-6 col-lg-4" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Iphone</a>
+    <a class="dropdown-item" href="#">Samsung</a>
+    <a class="dropdown-item" href="#">Xiaomi</a>
+  </div>
+</div>
+  </div>
+</div>
+<div class="card col-6  col-lg-4">
+  <img src="https://banner2.cleanpng.com/20180516/qxe/kisspng-sony-playstation-4-video-game-consoles-5afc025ca27d71.9891632615264651166656.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    PS
+  </button>
+  <div class="dropdown-menu col-6 col-lg-4" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">PS5</a>
+    <a class="dropdown-item" href="#">PS4</a>
+    <a class="dropdown-item" href="#">PS3</a>
+  </div>
+</div>
+  </div>
+</div>
+<div class="card col-6  col-lg-4">
+  <img src="https://d2ybmm5cpznb3i.cloudfront.net/wp-content/uploads/2018/10/How-to-make-a-book-trim-sizes-examples-e1512052607994.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Books
+  </button>
+  <div class="dropdown-menu col-6 col-lg-4" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Fashion</a>
+    <a class="dropdown-item" href="#">Business</a>
+    <a class="dropdown-item" href="#">All</a>
+  </div>
+</div>
+  </div>
+</div>
+<div class="card col-6  col-lg-4">
+  <img src="https://tafttribune.org/wp-content/uploads/2019/11/brandy3-900x600.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Clothes
+  </button>
+  <div class="dropdown-menu col-6 col-lg-4" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">T-shirt</a>
+    <a class="dropdown-item" href="#">Shoes</a>
+    <a class="dropdown-item" href="#">Woman's</a>
+  </div>
+</div>
+  </div>
+</div>
+<div class="card col-6  col-lg-4">
+  <img src="https://c2.staticflickr.com/8/7133/7684229660_0d21cc700f_b.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Toys
+  </button>
+  <div class="dropdown-menu col-6 col-lg-4" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Small</a>
+    <a class="dropdown-item" href="#">Big</a>
+    <a class="dropdown-item" href="#">All</a>
+  </div>
+</div>
+  </div>
+</div>
+<div class="card col-6  col-lg-4">
+  <img src="https://lh3.googleusercontent.com/proxy/z-9GzlsVq8IFcNV2vRpMmJ8yYdEbMzSNtqh6NqcYtqXDpqYXf1QLvX6Buum3I6k6WuJlXNYzpcTxK2894MNkUiq7ms2Gw1KPo2jlONIEoyxcrEjOa2XLCZwfsf1WvwiXEwKKUo9lXd8" class="card-img-top img-fluid d-none d-lg-block" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Cars
+  </button>
+  <div class="dropdown-menu col-6 col-lg-4" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Mersedes-Benz</a>
+    <a class="dropdown-item" href="#">BMW</a>
+    <a class="dropdown-item" href="#">Audi</a>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<hr>
+<div class="alert alert-secondary text-uppercase text-center col-12" role="alert">
+  NEW ARIVALS!
+</div>
+<div class="row">
+<div class="card col-12 col-lg-2">
+  <img src="https://www.emibaba.com/wp-content/uploads/2019/04/samsung-galaxy-a50-white-back.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Samsung a50</h5>
+    <p class="card-text">100$</p>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-2">
+  <img src="https://techbuy.ca/image/cache/catalog/Phones-Tablets/Cell%20Phones/Apple/ip%207%20%20plus-500x500.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Iphone 7</h5>
+    <p class="card-text">250$</p>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-2">
+  <img src="https://img.gkbcdn.com/p/2019-01-11/xiaomi-redmi-note-7-6-3-inch-3gb-32gb-black-1571990673176._w500_.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Xiaomi 7</h5>
+    <p class="card-text">90$</p>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-2">
+  <img src="https://i0.wp.com/www.mobilefactbd.com/wp-content/uploads/2020/03/Huawei-P40-Pro-Plus-500x500.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Huawei P40</h5>
+    <p class="card-text">300$</p>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-2">
+  <img src="https://www.gizmochina.com/wp-content/uploads/2019/09/Lenovo-A6-Note-500x500.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Lenovo A6</h5>
+    <p class="card-text">100$</p>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card col-12 col-lg-2">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/31epIjp9ToL.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Nokia</h5>
+    <p class="card-text">50$</p>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+</div>
+<hr>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+    </main>
+    <footer class="container">
+    <div class="row">
+      <a href="#"
+        class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+        Contact us
+      </a>
+      <a href="#"
+        class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+        live chat
+      </a>
+      <a href="#"
+        class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+        Shiping
+      </a><a href="#"
+        class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+        Term & Conditions
+      </a>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg d-none d-lg-block col pr-0 border">
+        <ul class="list-group">
+          <h5 class=""> Group 1</h5>
+          <a href="#" class="action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+        </ul>
+
+      </div>
+      <div class="col-lg d-none d-lg-block border">
+        <ul class="list-group">
+          <h5 class=""> Group 2</h5>
+          <a href="#" class="action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+        </ul>
+
+
+      </div>
+      <div class="col-lg d-none d-lg-block  border">
+        <ul class="list-group">
+          <h5 class=""> Group 3</h5>
+          <a href="#" class="action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+        </ul>
+
+      </div>
+      <div class="col-lg d-none d-lg-block  border">
+        <ul class="list-group">
+          <h5 class=""> Group 4</h5>
+          <a href="#" class="action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+        </ul>
+
+      </div>
+      <div class="col-lg d-none d-lg-block border">
+        <ul class="list-group">
+          <h5 class="">Group 5</h5>
+          <a href="#" class="action text-decoration-none text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+          <a href="#" class="=action text-decoration-none  text-secondary">link 1</a>
+        </ul>
+
+      </div>
+    </div>
+    <nav class="row navbar navbar-secondary bg-secondary">
+            <div class="d-flex align-items-baseline mx-3">
+             <img src="https://image.flaticon.com/icons/svg/889/889102.svg" class="px-1" width="30px">
+             <img src="https://image.flaticon.com/icons/svg/1384/1384063.svg" class="px-1" width="30px">
+             <img src="https://image.flaticon.com/icons/svg/2965/2965363.svg" class="px-1" width="30px">
+             <img src="https://image.flaticon.com/icons/svg/732/732200.svg" class="px-1" width="30px">
+           </div>
+           <h5>© Tumo Center For Ccreative Technologies</h5>
+         </nav>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="LoginModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+  <div class="form-group">
+    <hr>
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
