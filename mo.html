@@ -8,10 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Card</title>
+    <title>Shop</title>
   </head>
   <body>
-    <header class="header">
+     <header class="header">
         <div class="container">
           <div class="row">
             <div class="col-3 d-none d-lg-block">      
@@ -62,7 +62,7 @@
 
                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>
 
-                   <a class="dropdown-item" href="mo.html">My orders</a>
+                   <a class="dropdown-item" href="#">My orders</a>
                    <a class="dropdown-item" href="#">Accout Setings</a>
                  </div>
                 </div>
@@ -155,91 +155,172 @@
                 </nav>
         </div>
     </header>
-    <main>
- <div class="container">
-  <div class="row">
-    <hr>
-    <table class="table">
+    <main class="main pt-3">
+      <div class="container">
+        <div class="row ">
+          <h3 class=" text-secondary col-12">Gor Ghazaryan</h3>
+          <div class="pl-2">
+          <button type="button" class="btn btn-secondary">My Account</button>
+          <a href="" class="btn btn-outline-secondary ">My info</a>
+        </div>
+        </div>
+        <div class="row pt-3">
+          <div class="col-12 col-lg-3 bg-secondary">
+            <h3 class="text-light">My Orders</h3>
+
+            <table class="table">
   <thead>
     <tr>
-      <th scope="col-3"> <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg" style="width: 50px">
+      <th scope="col">Order #</th>
+      <th scope="col">Order Date</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">12.5648</th>
+      <td>04.04.2020</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <th scope="row">5.23</th>
+      <td>05.06.2020</td>
+      <td>$400</td>
+    </tr>
+    <tr>
+      <th scope="row">75.08</th>
+      <td>10.06.2020</td>
+      <td>$60</td>
+    </tr>
+    <tr>
+      <th scope="row">84.20</th>
+      <td>12.01.2020</td>
+      <td>$56</td>
+    </tr>
+    <tr>
+      <th scope="row">69.32</th>
+      <td>03.03.2020</td>
+      <td>$200</td>
+    </tr>
+  </tbody>
+</table>
+<div class="pb-3">
+<button type="button" class="btn btn-light ">See all</button>
+</div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-5 col-lg-4 d-none d-lg-block">
+                <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg">
+              </div>
+              <div class="d-none d-lg-block col-6 ">
+                 <h5 class="card-title">Iphone 11 Green</h5>
+                 <p class="card-text">The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the thirteenth generation lower-priced iPhone, succeeding the iPhone XR.</p>
+              </div>
+              <div class="col-5 col-lg-2 d-flex align-items-center d-none d-lg-block">
+                 <a href="p.html" class="btn btn-secondary d-none d-lg-block">Buy it for just $100</a>
+              </div>
+            </div>
+            <div class="row pt-2">
+              <div class="col-5 col-lg-4 d-none d-lg-block">
+                <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg">
+              </div>
+              <div class="d-none d-lg-block col-6 ">
+                 <h5 class="card-title">Iphone 11 Green</h5>
+                 <p class="card-text">The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the thirteenth generation lower-priced iPhone, succeeding the iPhone XR.</p>
+              </div>
+              <div class="col-5 col-lg-2 d-flex align-items-center d-none d-lg-block">
+                 <a href="p.html" class="btn btn-secondary d-none d-lg-block">Buy it for just $100</a>
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-lg-3 bg-secondary">
+            <h3 class="">Events</h3>
+              <button type="button" class="btn btn-light">Latest</button>
+              <button type="button" class="btn btn-outline-light">My Events</button>
+              <button type="button" class="btn btn-outline-light">Past</button>
+              <div class="row pt-3">
+                <img src="https://i.insider.com/5dc988d93afd37110656c47b?width=1100&format=jpeg&auto=webp" class="col-12" style="width: 300; height: 80">
+                <div class="col-9">
+                  <h6 class="text-center text-light text-uppercase">Disney</h6>
+                    
+                </div>
+              </div>
+              <div class="pb-3 pt-3">
+<button type="button" class="btn btn-light ">See all</button>
+</div>
+          </div>   
+        </div>
+        <div class="row ">
+          <div class="col-12 col-lg-3 bg-secondary">
+          <h3 class="text-light">My Wish List</h3>
+          <table class="table">
+  <thead>
+    <tr>
+      <th scope=""> <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg" style="width: 50px">
       </th>
-      <th scope="col-3 text-secondary">Iphone 11</th>
-      <th scope="col-3 text-secondary">$200</th>
-      <th scope="col-3">
-        <select class="custom-select custom-select-sm">
-  <option selected>Quality</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
+      <th scope="">Iphone 11</th>
+      <th scope="">$200</th>
 </th>
     </tr>
   </thead>
    <table class="table">
   <thead>
     <tr>
-      <th scope="col-3"> <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg" style="width: 50px">
+      <th scope=""> <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg" style="width: 50px">
       </th>
-      <th scope="col-3 text-secondary">Iphone 11</th>
-      <th scope="col-3 text-secondary">$200</th>
-      <th scope="col-3">
-        <select class="custom-select custom-select-sm">
-  <option selected>Quality</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
+      <th scope="">Iphone 11</th>
+      <th scope="">$200</th>
 </th>
     </tr>
   </thead>
      <table class="table">
   <thead>
     <tr>
-      <th scope="col-3"> <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg" style="width: 50px">
+      <th scope=""> <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg" style="width: 50px">
       </th>
-      <th scope="col-3 text-secondary">Iphone 11</th>
-      <th scope="col-3 text-secondary">$200</th>
-      <th scope="col-3">
-        <select class="custom-select custom-select-sm">
-  <option selected>Quality</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
-</th>
-    </tr>
-  </thead>
-     <table class="table">
-  <thead>
-    <tr>
-      <th scope="col-3"> <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg" style="width: 50px">
-      </th>
-      <th scope="col-3 text-secondary">Iphone 11</th>
-      <th scope="col-3 text-secondary">$200</th>
-      <th scope="col-3">
-        <select class="custom-select custom-select-sm">
-  <option selected>Quality</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
+      <th scope="">Iphone 11</th>
+      <th scope="">$200</th>
 </th>
     </tr>
   </thead>
   </tbody>
 </table>
 </table>
+<div class="pb-3">
+<button type="button" class="btn btn-light ">See all</button>
 </div>
-<div class="row d-flex justify-content-end pb-3">
-<a href="s.html" class="btn btn-outline-secondary pl-2">Checkout</a>
-</div>
-</div>
-</div>
-</main>
-
-
-<footer class="container">
+          </div>
+           <div class="col-12 col-lg-6">
+            <div class="row pt-2">
+              <div class="col-5 col-lg-4">
+                <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg">
+              </div>
+              <div class="d-none d-lg-block col-6 ">
+                 <h5 class="card-title">Iphone 11 Green</h5>
+                 <p class="card-text">The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the thirteenth generation lower-priced iPhone, succeeding the iPhone XR.</p>
+              </div>
+              <div class="col-5 col-lg-2 d-flex align-items-center">
+                 <a href="p.html" class="btn btn-secondary">Buy it for just $100</a>
+              </div>
+            </div>
+                        <div class="row pt-2">
+              <div class="col-5 col-lg-4">
+                <img src="https://sendmyrepair.com/wp-content/uploads/apple-iphone-11.jpg">
+              </div>
+              <div class="d-none d-lg-block col-6 ">
+                 <h5 class="card-title">Iphone 11 Green</h5>
+                 <p class="card-text">The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the thirteenth generation lower-priced iPhone, succeeding the iPhone XR.</p>
+              </div>
+              <div class="col-5 col-lg-2 d-flex align-items-center">
+                 <a href="p.html" class="btn btn-secondary">Buy it for just $100</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </main>
+    <footer class="container">
     <div class="row">
       <a href="#"
         class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
@@ -396,35 +477,12 @@
     </div>
   </div>
 </div>
-</body>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
